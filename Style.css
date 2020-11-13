@@ -1,0 +1,38 @@
+h1, h2, h4{
+	font-family: CallunaSansW01-Regular;
+	font-weight: bold;
+	color: #70bf47;
+	text-align: center;
+}
+
+h4{
+	border-bottom: 5px solid #bbb;
+}
+
+.nav-item{
+	font-weight: bold;
+	color: black;
+	border-right: 0.3em solid black;
+	height: 2em;
+}
+
+nav{
+	border-top: 5px solid #bbb;
+	width: 100%;
+}
+
+iframe{
+	border-top: 5px solid #bbb;
+	width: 100%;
+}
+
+#general-text{
+	border-bottom: 5px solid #bbb;
+}
+
+footer{
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
+	border-top: 5px solid black;
+}

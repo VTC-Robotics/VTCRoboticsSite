@@ -1,0 +1,55 @@
+h1, h4{
+	font-family: CallunaSansW01-Regular;
+	font-weight: bold;
+	color: #70bf47;
+	text-align: center;
+}
+
+h4{
+	border-bottom: 10px solid #bbb
+}
+
+.nav-item{
+	font-weight: bold;
+	color: black;
+	border-right: 0.3em solid black;
+	height: 2em;
+}
+
+#Members, .mem-left, .mem-right{
+	border-bottom: 5px solid #bbb;
+}
+
+#Members{
+	border-top: 5px solid #bbb;
+}
+
+.mem-right{
+	position: right;
+}
+
+
+nav{
+	border-top: 5px solid #bbb;
+}
+
+img{
+	border-radius: 50px;
+	width: 8em;
+	height: 8em;
+}
+
+.left-h2, .left-h3, .left-p{
+	text-align: center;
+}
+
+.right-h2, .right-h3, .right-p{
+	text-align: center;
+}
+
+footer{
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
+	border-top: 5px solid black;
+}
