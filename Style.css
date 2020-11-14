@@ -1,3 +1,7 @@
+header{
+	padding-top: 1.5em;
+}
+
 h1{
 	font-family: CallunaSansW01-Regular;
 	font-weight: bold;
@@ -5,21 +9,16 @@ h1{
 	color: #70bf47;
 }
 
-h2, h3, h4,{
-	font-family: CallunaSansW01-Regular;
-	font-weight: bold;
-	color: grey;
-	text-align: center;
-}
-
-#PartsH2{
+h2, h3, h4{
 	font-family: CallunaSansW01-Regular;
 	font-weight: bold;
 	color: white;
+	text-align: center;
 }
 
 h4{
 	border-bottom: 5px solid grey;
+	color: white;
 }
 
 h5{
@@ -32,12 +31,27 @@ nav{
 	border-top: 5px solid #bbb;
 }
 
-/*Photo controls for the members page*/
-.float-left, .float-right{ 
-	border-radius: 50px;
-	width: 8em;
-	height: 8em;
+body{
+	background-color: #0D1E47;
 }
+
+
+p{
+	color: white;
+	line-height: 25px;
+}
+
+ul{
+	color: white;
+}
+
+footer{
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
+	border-top: 5px solid black;
+}
+
 
 /*Photo controls for the Alumni*/
 div img{
@@ -46,22 +60,9 @@ div img{
 	height: 8em;
 }
 
-/*Photo controls for the Parts page*/
-#partsimg{
-	width: 20em;
-	padding-left: 1em;
-	padding-right: 1em;
-}
-
 /*Competitions page*/
 img{
 	width: 30em;
-}
-
-#eventPartners{
-	border-radius: 50px;
-	width: 8em;
-	height: 8em;
 }
 
 /*This is the youtube video on index page*/
@@ -75,36 +76,15 @@ span{
 }
 
 
-body{
-	background-color: #0D1E47;
-}
-
-p{
-	color: white;
-	line-height: 25px;
-}
-
-ul{
-	color: white;
-}
-
-
-footer{
-	border-left: 5px solid black;
-	border-right: 5px solid black;
-	border-bottom: 5px solid black;
-	border-top: 5px solid black;
-}
-
-/*All the classes*/
+/*This affects the buttons in the nav bar*/
 .nav-item{
 	font-weight: bold;
 	color: black;
-	border-right: 0.3em solid grey;
 	height: 2em;
 	color: white;
 }
 
+/*This is for the home link in */
 .nav-link{
 	color: white;
 }
@@ -113,8 +93,10 @@ footer{
 	position: right;
 }
 
+
 .left-h2, .left-h3, .left-p, .right-h2, .right-h3, .right-p{
 	text-align: center;
+	color: white;
 }
 
 .Alumnais{
@@ -124,7 +106,14 @@ footer{
 	border-top: 5px solid white;
 }
 
-/*All the ID's*/
+
+/*Photo controls for the members page*/
+.float-left, .float-right{ 
+	border-radius: 50px;
+	width: 8em;
+	height: 8em;
+}
+
 #Members, .mem-left, .mem-right{
 	border-bottom: 5px solid grey;
 }
@@ -133,8 +122,35 @@ footer{
 	border-top: 5px solid grey;
 }
 
-#general-text{
-	border-bottom: 5px solid #bbb;
-	line-height: 25px;
-	color: white;
+
+/*Photo controls for the Parts page*/
+#partsimg{
+	width: 20em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+
+/*Photo controls for the competitions page*/
+#eventPartners{
+	border-radius: 50px;
+	width: 8em;
+	height: 8em;
+}
+
+
+/*THE LOGO WHEN IN HALF SCREEN*/
+#lines{
+	width: 1.5em;
+	height: 1.5em;
+}
+
+
+hr{
+	background-color: white;
+}
+
+html, body{
+	margin-left: 7em;
+	margin-right: 7em;
 }
