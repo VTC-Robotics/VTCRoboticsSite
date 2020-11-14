@@ -1,23 +1,40 @@
-h1, h2, h4{
+h2, h4{
 	font-family: CallunaSansW01-Regular;
 	font-weight: bold;
-	color: #70bf47;
+	color: grey;
 	text-align: center;
+}
+
+h1{
+	font-family: CallunaSansW01-Regular;
+	font-weight: bold;
+	text-align: center;
+	color: #70bf47;
 }
 
 h4{
 	border-bottom: 5px solid #bbb;
 }
 
-body{
-	background-color: green;
-}
-
 .nav-item{
 	font-weight: bold;
 	color: black;
-	border-right: 0.3em solid black;
+	border-right: 0.3em solid grey;
 	height: 2em;
+	color: white;
+}
+
+.nav-link{
+	color: white;
+}
+
+span{
+	color: white;
+}
+
+
+body{
+	background-color: #0D1E47;
 }
 
 nav{
@@ -32,6 +49,8 @@ iframe{
 
 #general-text{
 	border-bottom: 5px solid #bbb;
+	line-height: 25px;
+	color: white;
 }
 
 footer{

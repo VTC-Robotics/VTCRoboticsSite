@@ -1,27 +1,39 @@
-h1, h4{
-	font-family: CallunaSansW01-Regular;
-	font-weight: bold;
-	color: #70bf47;
-	text-align: center;
+h4{
+	border-bottom: 5px solid grey;
 }
 
-h4{
-	border-bottom: 10px solid #bbb
+h1{
+	font-family: CallunaSansW01-Regular;
+	font-weight: bold;
+	text-align: center;
+	color: #70bf47;
+}
+
+h2,h3,h4{
+	font-family: CallunaSansW01-Regular;
+	font-weight: bold;
+	color: white;
+	text-align: center;
 }
 
 .nav-item{
 	font-weight: bold;
 	color: black;
-	border-right: 0.3em solid black;
+	border-right: 0.3em solid grey;
 	height: 2em;
+	color: white;
+}
+
+.nav-link{
+	color: white;
 }
 
 #Members, .mem-left, .mem-right{
-	border-bottom: 5px solid #bbb;
+	border-bottom: 5px solid grey;
 }
 
 #Members{
-	border-top: 5px solid #bbb;
+	border-top: 5px solid grey;
 }
 
 .mem-right{
@@ -30,7 +42,7 @@ h4{
 
 
 nav{
-	border-top: 5px solid #bbb;
+	border-top: 5px solid grey;
 }
 
 img{
@@ -39,13 +51,19 @@ img{
 	height: 8em;
 }
 
-.left-h2, .left-h3, .left-p{
+body{
+	background-color: #0D1E47;
+}
+
+p{
+	color: white;
+	line-height: 25px;
+}
+
+.left-h2, .left-h3, .left-p, .right-h2, .right-h3, .right-p{
 	text-align: center;
 }
 
-.right-h2, .right-h3, .right-p{
-	text-align: center;
-}
 
 footer{
 	border-left: 5px solid black;
