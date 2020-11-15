@@ -29,6 +29,7 @@ h5{
 
 nav{
 	border-top: 5px solid #bbb;
+	border-bottom: 5px solid #bbb;
 }
 
 body{
@@ -67,7 +68,6 @@ img{
 
 /*This is the youtube video on index page*/
 iframe{
-	border-top: 5px solid #bbb;
 	width: 100%;
 }
 
@@ -75,6 +75,11 @@ span{
 	color: white;
 }
 
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*THIS IS ALUMNI PAGE...FIX LATER...*/
+div{
+	background-color: black;
+}
 
 /*This affects the buttons in the nav bar*/
 .nav-item{
@@ -115,11 +120,7 @@ span{
 }
 
 #Members, .mem-left, .mem-right{
-	border-bottom: 5px solid grey;
-}
-
-#Members{
-	border-top: 5px solid grey;
+	border-bottom: 5px solid #10ebdc;
 }
 
 
@@ -143,11 +144,6 @@ span{
 #lines{
 	width: 1.5em;
 	height: 1.5em;
-}
-
-
-hr{
-	background-color: white;
 }
 
 html, body{
