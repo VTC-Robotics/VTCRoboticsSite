@@ -75,12 +75,6 @@ span{
 	color: white;
 }
 
-/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/*THIS IS ALUMNI PAGE...FIX LATER...*/
-div{
-	background-color: black;
-}
-
 /*This affects the buttons in the nav bar*/
 .nav-item{
 	font-weight: bold;
@@ -109,6 +103,7 @@ div{
 	border-right: 5px solid white;
 	border-bottom: 5px solid white;
 	border-top: 5px solid white;
+	background-color: black;
 }
 
 
@@ -118,6 +113,7 @@ div{
 	width: 8em;
 	height: 8em;
 }
+
 
 #Members, .mem-left, .mem-right{
 	border-bottom: 5px solid #10ebdc;
