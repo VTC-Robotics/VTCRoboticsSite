@@ -166,6 +166,11 @@ u{
 	margin-top: .5em;
 }
 
+/*Header on the parts page*/
+#partHead{
+	margin-top: .69em;
+}
+
 /*The paragraph on the index page*/
 #genText{
 	margin-bottom: 5em;
@@ -195,7 +200,7 @@ u{
 
 /*This is for the header under the gif in the roles page*/
 #shy{
-	margin-top: 1em;
+	margin-top: 2.5em;
 }
 
 
