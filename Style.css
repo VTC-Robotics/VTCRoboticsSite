@@ -48,6 +48,7 @@ ul{
 
 footer{
 	border: 5px solid black;
+	margin-top: 5em;
 }
 
 hr {
@@ -72,6 +73,7 @@ hr {
 /*This is the youtube video on index page*/
 iframe{
 	width: 100%;
+	margin-top: 3em;
 }
 
 span{
@@ -157,6 +159,11 @@ u{
 #ind_head{
 	margin-top: .5em;
 	margin-bottom: .5em;
+}
+
+/*The header in the members page*/
+#memHead{
+	margin-top: .5em;
 }
 
 /*The paragraph on the index page*/
