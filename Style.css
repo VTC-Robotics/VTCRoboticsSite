@@ -47,12 +47,15 @@ ul{
 }
 
 footer{
-	border-left: 5px solid black;
-	border-right: 5px solid black;
-	border-bottom: 5px solid black;
-	border-top: 5px solid black;
+	border: 5px solid black;
 }
 
+hr {
+    border: none;
+    height: 2.5px;
+    color: #333;
+    background-color: #333; 
+}
 
 /*Photo controls for the Alumni*/
 .AlumnaisPictures{
@@ -75,6 +78,11 @@ span{
 	color: white;
 }
 
+/*This is on the Alumnai page headers*/
+u{
+	text-decoration-color: red;
+}
+
 /*This affects the buttons in the nav bar*/
 .nav-item{
 	font-weight: bold;
@@ -92,27 +100,35 @@ span{
 	position: right;
 }
 
+.mem-left, .mem-right{
+	border: 5px solid #10ebdc;
+	margin-top: 5em;
+	background-color: #47360d;
+}
+
 
 .left-h2, .left-h3, .left-p, .right-h2, .right-h3, .right-p{
 	text-align: center;
 	color: white;
 }
 
-
-.Alumnais{
-	border-left: 5px solid white;
-	border-right: 5px solid white;
-	border-bottom: 5px solid white;
-	border-top: 5px solid white;
-	background-color: black;
-}
-
-
 /*Photo controls for the members page*/
 .float-left, .float-right{ 
 	border-radius: 50px;
 	width: 8em;
 	height: 8em;
+}
+
+
+.Alumnais{
+	border: 5px solid white;
+	background-color: #47360d;
+ 	margin-top: 3em;
+}
+
+/*It is for the headers on the alumnai page*/
+.alum_head{
+	margin-top: .5em;
 }
 
 .gallery{
@@ -137,11 +153,16 @@ span{
   color: white;
 }
 
-
-#Members, .mem-left, .mem-right{
-	border-bottom: 5px solid #10ebdc;
+/*The header in the index page*/
+#ind_head{
+	margin-top: .5em;
+	margin-bottom: .5em;
 }
 
+/*The paragraph on the index page*/
+#genText{
+	margin-bottom: 5em;
+}
 
 /*Photo controls for the Parts page*/
 #partsimg{
@@ -159,15 +180,15 @@ span{
 }
 
 
-/*THE LOGO WHEN IN HALF SCREEN*/
+/*THE LOGO WHEN IN HALF SCREEN index page line 67*/
 #lines{
 	width: 1.5em;
 	height: 1.5em;
 }
 
-hr {
-    border: none;
-    height: 2.5px;
-    color: #333;
-    background-color: #333; 
+/*This is for the header under the gif in the roles page*/
+#shy{
+	margin-top: 1em;
 }
+
+
