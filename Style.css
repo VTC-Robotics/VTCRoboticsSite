@@ -119,7 +119,7 @@ u{
 
 .mem-left, .mem-right{
 	border: 5px solid #10ebdc;
-	margin-top: 5em;
+	margin-bottom: 5em;
 	background-color: #47360d;
 }
 
@@ -178,7 +178,8 @@ u{
 
 /*The header in the members page*/
 #memHead{
-	margin-top: .5em;
+	margin-top: 1em;
+	margin-bottom: 2em;
 }
 
 /*Header on the parts page*/
@@ -187,6 +188,32 @@ u{
 	margin-bottom: .5em;
 }
 
+/*The header on the contact us page*/
+#conInfo{
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+/*The following are controls for the images/text on the contact us page*/
+
+.contPhotosleft{
+	height: 5em;
+	width: 5em;
+	float: left;
+}
+
+.contPhotosright{
+	height: 5em;
+	width: 5em;
+	float: right;
+}
+
+.contDetail{
+	text-align: center;
+}
+
+
+/*This is the end of the controls for the contact us page content*/
 /*Photo controls for the Parts page*/
 #partsimg{
 	width: 100%;
@@ -198,7 +225,7 @@ u{
 	float: left;
 	background-color: #47360d;
 	width: 30em;
-	height: 22em;
+	height: 24em;
 	border: yellow 5px solid;
 }
 
@@ -207,7 +234,7 @@ u{
 	float: left;
 	background-color: #47360d;
 	width: 30em;
-	height: 22em;
+	height: 24em;
 	border: yellow 5px solid;
 	margin-left: 5em;
 }
@@ -219,11 +246,12 @@ u{
 
 #partsH5{
 	text-align: center;
+	padding-top: .75em;
 }
 
 /*The parts page More bots to come header*/
 #moreToCome{
-	padding-top: 10em;
+	padding-top: 11em;
 }
 
 
