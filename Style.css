@@ -1,4 +1,4 @@
-/*
+
 	
 	ASK IF THEY WANT THIS OR NAH
 
@@ -80,10 +80,6 @@ hr {
 	height: 8em;
 }
 
-/*Competitions page*/
-.CompPhotos{
-	width: 30em;
-}
 
 /*This is the youtube video on index page*/
 iframe{
@@ -144,10 +140,10 @@ u{
 }
 
 .gallery{
-  margin: 5px;
+  margin: 2em;
   border: 1px solid #ccc;
-  float: left;
-  width: 180px;
+  display: inline-block;
+  width: 15em;
 }
 
 .gallery:hover {
@@ -159,7 +155,7 @@ u{
   height: auto;
 }
 
-.desc {
+.desc{
   padding: 15px;
   text-align: center;
   color: white;
@@ -167,7 +163,7 @@ u{
 
 /*It is for the headers on the alumnai page*/
 .alum_head{
-	margin-top: .5em;
+	margin-top: 1em;
 }
 
 /*The header in the index page*/
@@ -194,6 +190,12 @@ u{
 	margin-bottom: .5em;
 }
 
+/*The header on the photos page*/
+#GallHead{
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
 /*The following are controls for the images/text on the contact us page*/
 
 .contPhotosleft{
@@ -215,6 +217,7 @@ u{
 
 /*This is the end of the controls for the contact us page content*/
 /*Photo controls for the Parts page*/
+
 #partsimg{
 	width: 100%;
 	height: 45em;
@@ -239,14 +242,15 @@ u{
 	margin-left: 5em;
 }
 
-/*The paragraph on the index page*/
-#genText{
-	margin-bottom: 5em;
-}
-
+/*For the h5 header on the parts page*/
 #partsH5{
 	text-align: center;
 	padding-top: .75em;
+}
+
+/*The paragraph on the index page*/
+#genText{
+	margin-bottom: 5em;
 }
 
 /*The parts page More bots to come header*/
@@ -274,13 +278,62 @@ u{
 	margin-top: 2.5em;
 }
 
+/*CHECK THIS PART AGAIN BEFORE SUBMISSION----------------------------------------------------------------------------------------------------*/
 /*The image controls for the pictures of the founders on the index page*/
-#founders{
+/*#founders{
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
   	width: 75%;
   	margin-top: 2.5em;
+}*/
+/*CHECK THIS PART AGAIN BEFORE SUBMISSION----------------------------------------------------------------------------------------------------*/
+
+
+/*This is for the image gallery to make the entries centered*/
+#parentDiv{
+	margin: auto;
+	width: 90%;
+}
+
+/*The following are Index page founding members overlay text settings*/
+#text {
+  color: yellow;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
 }
 
 
+#overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 125%;
+  opacity: 0;
+  transition: .03s ease 0s;
+}
+
+#clear {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  margin-top: 2.5em;
+}
+
+#clear:hover #overlay {
+  opacity: 1;
+}
+
+/*End of index page overlay settings
