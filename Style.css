@@ -1,3 +1,13 @@
+/*
+	
+	ASK IF THEY WANT THIS OR NAH
+
+body{
+	border: 5px  solid #333;
+}
+*/
+
+
 header{
 	padding-top: 1.5em;
 }
@@ -49,6 +59,11 @@ ul{
 footer{
 	border: 5px solid black;
 	margin-top: 5em;
+	background: red;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10em;
 }
 
 hr {
@@ -82,7 +97,7 @@ span{
 
 /*This is on the Alumnai page headers*/
 u{
-	text-decoration-color: red;
+	text-decoration-color: gold;
 }
 
 /*This affects the buttons in the nav bar*/
@@ -128,11 +143,6 @@ u{
  	margin-top: 3em;
 }
 
-/*It is for the headers on the alumnai page*/
-.alum_head{
-	margin-top: .5em;
-}
-
 .gallery{
   margin: 5px;
   border: 1px solid #ccc;
@@ -155,6 +165,11 @@ u{
   color: white;
 }
 
+/*It is for the headers on the alumnai page*/
+.alum_head{
+	margin-top: .5em;
+}
+
 /*The header in the index page*/
 #ind_head{
 	margin-top: .5em;
@@ -168,7 +183,33 @@ u{
 
 /*Header on the parts page*/
 #partHead{
-	margin-top: .69em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+/*Photo controls for the Parts page*/
+#partsimg{
+	width: 100%;
+	height: 45em;
+	margin-bottom: 1.5em;
+}
+
+#leftBot{
+	float: left;
+	background-color: #47360d;
+	width: 30em;
+	height: 22em;
+	border: yellow 5px solid;
+}
+
+/*GET HELP WITH THE MARGIN PROBLEM ON THIS, WHEN PUT IN A SMALLER SCREEN SIZE THEN THIS GETS MESSED UP BAD*/
+#rightBot{
+	float: left;
+	background-color: #47360d;
+	width: 30em;
+	height: 22em;
+	border: yellow 5px solid;
+	margin-left: 5em;
 }
 
 /*The paragraph on the index page*/
@@ -176,11 +217,13 @@ u{
 	margin-bottom: 5em;
 }
 
-/*Photo controls for the Parts page*/
-#partsimg{
-	width: 20em;
-	padding-left: 1em;
-	padding-right: 1em;
+#partsH5{
+	text-align: center;
+}
+
+/*The parts page More bots to come header*/
+#moreToCome{
+	padding-top: 10em;
 }
 
 
@@ -201,6 +244,15 @@ u{
 /*This is for the header under the gif in the roles page*/
 #shy{
 	margin-top: 2.5em;
+}
+
+/*The image controls for the pictures of the founders on the index page*/
+#founders{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 75%;
+  	margin-top: 2.5em;
 }
 
 
