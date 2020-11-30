@@ -1,12 +1,4 @@
 
-	
-	ASK IF THEY WANT THIS OR NAH
-
-body{
-	border: 5px  solid #333;
-}
-*/
-
 
 header{
 	padding-top: 1.5em;
@@ -19,7 +11,7 @@ h1{
 	color: #70bf47;
 }
 
-h2, h3, h4{
+h2, h3, h4, h5{
 	font-family: CallunaSansW01-Regular;
 	font-weight: bold;
 	color: white;
@@ -59,7 +51,7 @@ ul{
 footer{
 	border: 5px solid black;
 	margin-top: 5em;
-	background: red;
+	background: #0d3b47;
     left: 0;
     right: 0;
     bottom: 0;
@@ -139,15 +131,17 @@ u{
  	margin-top: 3em;
 }
 
+/*Following is the controls for the images and the divs in the gallery/photos page*/
 .gallery{
   margin: 2em;
   border: 1px solid #ccc;
   display: inline-block;
   width: 15em;
+  background-color: #0c92e3;
 }
 
 .gallery:hover {
-  border: 1px solid #777;
+  border: 2px solid yellow;
 }
 
 .gallery img {
@@ -160,41 +154,29 @@ u{
   text-align: center;
   color: white;
 }
+/*End of the controls of the images and divs of the gallery page*/
 
-/*It is for the headers on the alumnai page*/
-.alum_head{
-	margin-top: 1em;
-}
 
-/*The header in the index page*/
-#ind_head{
-	margin-top: .5em;
+
+/*Header control for Alumni, Index, Members, Parts, Competitions, Contact_us, Gallery page*/
+.heads{
+	margin-top: 1.2em;
 	margin-bottom: .5em;
 }
 
-/*The header in the members page*/
-#memHead{
-	margin-top: 1em;
-	margin-bottom: 2em;
+
+/*For the h5 header on the parts page*/
+#partsH5{
+	text-align: center;
+	padding-top: .75em;
 }
 
-/*Header on the parts page*/
-#partHead{
-	margin-top: .5em;
-	margin-bottom: .5em;
+
+/*The parts page More bots to come header (on the very bottom)*/
+#moreToCome{
+	padding-top: 11em;
 }
 
-/*The header on the contact us page*/
-#conInfo{
-	margin-top: .5em;
-	margin-bottom: .5em;
-}
-
-/*The header on the photos page*/
-#GallHead{
-	margin-top: .5em;
-	margin-bottom: .5em;
-}
 
 /*The following are controls for the images/text on the contact us page*/
 
@@ -216,14 +198,16 @@ u{
 
 
 /*This is the end of the controls for the contact us page content*/
-/*Photo controls for the Parts page*/
 
+
+/*Photo controls for the Parts page*/
 #partsimg{
 	width: 100%;
 	height: 45em;
 	margin-bottom: 1.5em;
 }
 
+/*The Div on the parts page*/
 #leftBot{
 	float: left;
 	background-color: #47360d;
@@ -232,7 +216,8 @@ u{
 	border: yellow 5px solid;
 }
 
-/*GET HELP WITH THE MARGIN PROBLEM ON THIS, WHEN PUT IN A SMALLER SCREEN SIZE THEN THIS GETS MESSED UP BAD*/
+
+/*The Div on the parts page*/
 #rightBot{
 	float: left;
 	background-color: #47360d;
@@ -242,29 +227,51 @@ u{
 	margin-left: 5em;
 }
 
-/*For the h5 header on the parts page*/
-#partsH5{
-	text-align: center;
-	padding-top: .75em;
-}
-
 /*The paragraph on the index page*/
 #genText{
 	margin-bottom: 5em;
 }
 
-/*The parts page More bots to come header*/
-#moreToCome{
-	padding-top: 11em;
+
+/*Photo description on the parts page*/
+#partsInfo{
+	margin-top: 2em;
+	margin-bottom: 3em;
 }
 
 
 /*Photo controls for the competitions page*/
 #eventPartners{
-	border-radius: 50px;
-	width: 8em;
-	height: 8em;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1em;
 }
+
+/*Competitions page controls for images and div*/
+.gallery_comp{
+  margin: 3em;
+  border: 1px solid #ccc;
+  display: inline-block;
+  width: 15em;
+  background-color: #47360d;
+}
+
+.gallery_comp:hover {
+  border: 2px solid yellow;
+}
+
+.gallery_comp img {
+  width: 100%;
+  height: auto;
+}
+
+.desc_comp{
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+/*End of controls of the comp images and divs*/
 
 
 /*THE LOGO WHEN IN HALF SCREEN index page line 67*/
@@ -278,17 +285,6 @@ u{
 	margin-top: 2.5em;
 }
 
-/*CHECK THIS PART AGAIN BEFORE SUBMISSION----------------------------------------------------------------------------------------------------*/
-/*The image controls for the pictures of the founders on the index page*/
-/*#founders{
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 75%;
-  	margin-top: 2.5em;
-}*/
-/*CHECK THIS PART AGAIN BEFORE SUBMISSION----------------------------------------------------------------------------------------------------*/
-
 
 /*This is for the image gallery to make the entries centered*/
 #parentDiv{
@@ -296,44 +292,103 @@ u{
 	width: 90%;
 }
 
-/*The following are Index page founding members overlay text settings*/
-#text {
-  color: yellow;
-  font-weight: bold;
-  font-size: 20px;
+#founders{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+
+}
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  height: 200px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
   position: absolute;
-  top: 5%;
-  left: 40%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: left;
+  width: 75%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
 }
 
 
-#overlay {
+	/*This part is a work in progress still*/
+
+/*The following are Index page founding members overlay text settings*/
+/*.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 150%;
+  height: auto;
+}
+
+.overlay {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   height: 100%;
-  width: 125%;
+  width: 150%;
   opacity: 0;
-  transition: .03s ease 0s;
+  transition: .5s ease;
+  background-color: #008CBA;
 }
 
-#clear {
-  position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 65%;
-  margin-top: 2.5em;
-}
-
-#clear:hover #overlay {
+.container:hover .overlay {
   opacity: 1;
 }
 
-/*End of index page overlay settings
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+}*/
+/*End of index page overlay settings*/
+
+

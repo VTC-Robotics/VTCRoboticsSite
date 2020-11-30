@@ -57,19 +57,21 @@
 
 
   <!-- The navigation menu -->
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg navbar-dark">
 
-    	<a class="nav-item active" href="index.html">Home</a>
 
     	<!-- This is a drop down menu when screen is small -->
    	 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon">Menu</span>
-      <img id="lines" src="Pictures/3-lines.png">
+      <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
 
       <ul class="navbar-nav">
+
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
 
         <li class="nav-item active">
           <a class="nav-link" href="Members.html">Members</a>
@@ -119,20 +121,23 @@
   <iframe width="1280" height="720" src="https://www.youtube.com/embed/nfXZ7k29mW4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-  <h2 id="ind_head"><u>General Club Information</u></h2>
+  <h2 class="heads"><u>General Club Information</u></h2>
 
   <!-- General info area -->
   	<p id="genText">So you are interested in join Vermont Tech robotics team, well you picked a great club to have interest in. Some of the things that we do in this club are things such as build robots (duh) compete in competitions such as the Trinity Fire Fighting robot competition.</p>
 
+    <hr>
 
 
-    <u><h2>The Founding Members of Vermont Technical Robitics Team</h2></u>
-  <div id="clear">
-    <img id="founders" src="Pictures/founding members.jpg">
-    <div id="overlay">
-      <div id="text">Tom Hanks &nbsp; &nbsp; &nbsp; &nbsp;John Doe &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Jack daniel &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Ben 10  </div>
-    </div>
-  </div>
+
+<u><h2 class="heads">The Founding Members of Vermont Technical Robitics Team</h2></u>
+
+<img id="founders" src="Pictures/founding_members.jpg" alt="Founding Members">
+
+  
+
+
+  <hr>
 
 
     <!-- THIS IS THE JQUERY, POPPER.JS, BOOTSTRAP.JS FILES (NEEDED!) -->

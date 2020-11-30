@@ -52,23 +52,26 @@
 
 <header>
 
-  <!-- Header -->
+<!-- Header -->
   <a href="index.html"><h1 class="animate__animated animate__heartBeat">VTC ROBOTICS</h1></a>
 
 
   <!-- The navigation menu -->
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg navbar-dark">
 
-    	<a class="nav-item active" href="index.html">Home</a>
 
-    	<!-- This is a drop down menu when screen is small -->
-   	 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon">Menu</span>
+      <!-- This is a drop down menu when screen is small -->
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
 
       <ul class="navbar-nav">
+
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
 
         <li class="nav-item active">
           <a class="nav-link" href="Members.html">Members</a>
@@ -107,78 +110,92 @@
         </li>
 
       </ul>
-    	</div>
+      </div>
   </nav>
 
 </header>
 
+
 <main>
 
   	
-  <h1>Here are the competitions that VTC Robotics have participated in</h1>
-
-  <img id="eventPartners" src="Pictures/unknown.png">
-  <img id="eventPartners" src="Pictures/Chris_Grey.png">
-  <h2>These events were made possible by our vex robotics event partners, Professor Chris Grey, and Professor John Kidder</h2>
+  <u><h2 class="heads">Here are the competitions that VTC Robotics have participated in</h2></u>
 
 
-  <div class="gallery">
-    <a target="_blank" href="Pictures/arena.jpg">
-      <img src="Pictures/arena.jpg" alt="vex arena" width="600" height="400">
-    </a>
-    <div class="desc">This was the area where the High schoolers tested there bots in the High School vex competition. Which was set up by the VTC robotics team.</div>
-   </div>
-
-
-    <div class="gallery">
+    <div class="gallery_comp">
     <a target="_blank" href="Pictures/vex_arena.jpg">
-      <img src="Pictures/vex_arena.jpg" alt="vex arena" width="600" height="400">
+      <img src="Pictures/vex_arena.jpg" alt="vex arena">
     </a>
-    <div class="desc">This ia a photo of the vex competition that VTC robotics hosted in 2018 in the Judd building</div>
+    <div class="desc_comp">This ia a photo of the vex competition that VTC robotics hosted in 2018</div>
    </div>
 
 
-    <div class="gallery">
+    <div class="gallery_comp">
     <a target="_blank" href="Pictures/skillscomp.jpg">
-      <img src="Pictures/skillscomp.jpg" alt="vex arena" width="600" height="400">
+      <img src="Pictures/skillscomp.jpg" alt="vex arena">
     </a>
-    <div class="desc">This is a photo skills competition of a different team competing</div>
+    <div class="desc_comp">This is a photo skills competition of a different team competing</div>
    </div>
 
 
-   <div class="gallery">
+   <div class="gallery_comp">
     <a target="_blank" href="Pictures/vexawards.jpg">
-      <img src="Pictures/vexawards.jpg" alt="vex arena" width="600" height="400">
+      <img src="Pictures/vexawards.jpg" alt="vex arena">
     </a>
-    <div class="desc">These where the trophies that competitors at the vex competitions could win.</div>
+    <div class="desc_comp">These where the trophies that competitors at the vex competitions could win.</div>
    </div>
 
 
-   <div class="gallery">
+   <div class="gallery_comp">
     <a target="_blank" href="Pictures/teambot.jpg">
-      <img src="Pictures/teambot.jpg" alt="vex arena" width="600" height="400">
+      <img src="Pictures/teambot.jpg" alt="vex arena">
     </a>
-    <div class="desc">This the VTC robotics team working on there 2018 skills cempetition robot design</div>
+    <div class="desc_comp">This the VTC robotics team working on there 2018 skills cempetition robot design</div>
    </div>
 
 
-   <div class="gallery">
+   <div class="gallery_comp">
     <a target="_blank" href="Pictures/atarena.jpg">
-      <img src="Pictures/atarena.jpg" alt="vex arena" width="600" height="400">
+      <img src="Pictures/atarena.jpg" alt="vex arena">
     </a>
-    <div class="desc">This was the VTC robotics team at the 2018 skills competition making adjustment to there bot</div>
+    <div class="desc_comp">This was the VTC robotics team at the 2018 skills competition making adjustment to there bot</div>
    </div>
 
 
-   <div class="gallery">
+   <div class="gallery_comp">
     <a target="_blank" href="Pictures/kramer.jpg">
-      <img src="Pictures/kramer.jpg" alt="vex arena" width="600" height="400">
+      <img src="Pictures/kramer.jpg" alt="vex arena">
     </a>
-    <div class="desc">Here we have Blake and Andrew showing off the kramer bot from the 2018 skills competition</div>
+    <div class="desc_comp">Here we have Blake and Andrew showing off the kramer bot from the 2018 skills competition</div>
    </div>
 
 
+   <div class="gallery_comp">
+    <a target="_blank" href="Pictures/arena.jpg">
+      <img src="Pictures/arena.jpg" alt="vex arena">
+    </a>
+    <div class="desc_comp">Vex Competition for High Schoolers hosted by VTC Robotics</div>
+   </div>
+
+   <hr>
+
+   <u><h3 class="heads">Thank You!</h3></u>
+
+   <p>A big thanks is due to Professor Chris Grey, and Professor John Kidder who were our vex robotics event partners, and without them these compeitions would not have been possible.</p>
+
+   <hr>
+
+   <a target="_empty" href="Pictures/unknown.png">
+    <img id="eventPartners" src="Pictures/unknown.png">
+  </a>
+
+  <hr>
+
+  <a href="Pictures/Chris_Grey.png">
+   <img id="eventPartners" src="Pictures/Chris_Grey.png">
+ </a>
   
+  <hr>
 
   <!-- THIS IS THE JQUERY, POPPER.JS, BOOTSTRAP.JS FILES (NEEDED!) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
