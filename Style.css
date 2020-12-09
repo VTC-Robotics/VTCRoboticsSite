@@ -42,6 +42,7 @@ body{
 p{
 	color: white;
 	line-height: 25px;
+	font-family: 'Cairo', sans-serif;
 }
 
 ul{
@@ -303,4 +304,21 @@ u{
 
 .table{
 	color: yellow;
+}
+
+
+/*Products page paragraph*/
+.product{
+	margin-top: 2em;
+	margin-bottom: 4em;
+}
+
+/*contact us page*/
+#make_center{
+	text-align: center;
+}
+
+/*contact us page*/
+.contact_us_headers{
+	margin-top: 1.5em;
 }
